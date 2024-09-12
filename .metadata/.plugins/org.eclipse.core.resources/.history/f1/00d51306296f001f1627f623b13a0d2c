@@ -1,0 +1,8 @@
+package StepDefination;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features="E:\\cucumber\\CucumberProject\\src\\test\\resources\\Features",glue= {"StepDefinitions"})
+public class TestRunner {
+	
+
+}
